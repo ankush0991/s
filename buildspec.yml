@@ -5,4 +5,4 @@ phases:
   pre_build:
     commands: 
           # First Step is to removing existing folder in QA of previous build 
-        -  aws s3 cp s3://mainbucketsourceregion/index.html s3://mainbucketdest --source-region us-east-1 --region us-east-2
+        -  aws s3 cp s3://mainbucketsourceregion/index.html s3:/ascsdvsdv --source-region us-east-1 --region us-east-2
